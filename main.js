@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const util = require('util');
-const readdir = util.promisify(fs.readdir);
 
 
 function findFile(filePath,ext){   // function to recursively look for files in a path with a given extension
